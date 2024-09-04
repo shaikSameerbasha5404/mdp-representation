@@ -26,7 +26,7 @@ Stay in the same level(0)
 
 ### Graphical Representation
 
-![sam1](https://github.com/user-attachments/assets/6d3a6bb7-2d76-4081-8f13-2a76d30e5efb)
+![RL-1](https://github.com/user-attachments/assets/7715a6c6-a583-4229-8ead-1382c528c8b3)
 
 
 ## PYTHON REPRESENTATION:
@@ -34,28 +34,18 @@ Stay in the same level(0)
 NAME : Shaik Sameer Basha
 REG NO : 212222240093
 
-P = {
-    0:{
-        0: [(0.44,0,0,True),(0.13,1,0,False)],
-        1: [(0.13,1,0,False),(0.44,0,0,True)]
-    },
-    1:{
-        0: [(0.44,1,0,False),(0.13,2,1,True)],
-        1: [(0.13,2,1,True),(0.44,1,0,False)]
-    },
-    2:{
-        0: [(0.44,2,1,True),(0.13,1,1,False)],
-        1: [(0.13,1,1,False),(0.44,2,1,True)]
-    }
+solve_mdp={
+0: { 1: [(0.4,1,0,False),(0.5,0,0,False),(0.1,2,0,False)], 0: [(0.6,0,0,False),(0.3,2,0,False),(0.1,3,1,True)] },
+1: { 1: [(0.5,2,0,False),(0.4,0,0,False),(0.1,3,1,True)], 0: [(0.6,0,0,False),(0.4,2,0,False)] },
+2: { 1: [(0.6,3,1,True),(0.4,1,0,False)], 0: [(0.6,1,0,False),(0.4,3,1,True)] },
+3: { 1: [(0.6,3,1,True),(0.2,2,0,False),(0.2,0,0,False)], 0: [(0.5,1,0,False),(0.3,3,1,True),(0.2,2,0,False)] }
 }
-
-
 ~~~
 
 ## OUTPUT:
 
-![sam2](https://github.com/user-attachments/assets/725e4898-cebf-44c2-8e04-dd276d5fc4c6)
 
+![RL Ex-1](https://github.com/user-attachments/assets/7eb5c1e9-0522-40f1-aed4-41a3c5e0b382)
 
 
 ## RESULT:
